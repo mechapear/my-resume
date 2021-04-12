@@ -77,9 +77,13 @@ body {
   background-color: #dcd6cb;
 }
 
-.activites {
+.activities {
   background-color: #f6f1ee;
   padding: 4px 16px;
+}
+
+.activities-wrapper {
+  padding: 16px 4px 4px;
 }
 
 .section {
