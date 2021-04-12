@@ -9,15 +9,6 @@ body {
   width: 720px;
 }
 
-.main-container {
-
-}
-
-.my-info {
-  font-size: 14px;
-  margin: 0;
-}
-
 .my-profile {
   height: 280px;
   display: flex;
@@ -52,10 +43,6 @@ h2 {
   margin-bottom: 0;
 }
 
-.contact {
-  background-color: #c3ab9a;
-}
-
 .contact-wrapper, .miscellanceous-wrapper {
   display: grid;
   grid-gap: 8px;
@@ -81,28 +68,22 @@ h2 {
 
 .activities, .activities > h2 {
   background-color: #f6f1ee;
-  padding: 4px 16px;
-}
-
-.activities-wrapper {
-  padding: 16px 4px 4px;
 }
 
 .section {
   padding: 4px 16px 40px 16px;
 }
 
-.my-work {
-  padding: 24px 8px 8px 24px;
-  background-color: #f7f5f48a;
+.my-work > h2, .part {
+  background-color: white;
 }
 
-h2 {
-  font-size: 16px;
+.dekd {
+  padding-top: 16px;
 }
 
 .part {
-  padding-right: 8px;
+  padding-bottom: 4px;
 }
 
 .my-work li {
