@@ -10,9 +10,7 @@ body {
 }
 
 .main-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+
 }
 
 .my-info {
@@ -45,7 +43,7 @@ body {
   padding-bottom: 16px;
 }
 
-.my-info h2 {
+h2 {
   font-size: 16px;
   width: max-content;
   padding: 8px 12px;
@@ -65,7 +63,11 @@ body {
   padding: 16px 4px 4px;
 }
 
-.education {
+.contact, .contact > h2 {
+  background-color: #c3ab9a;
+}
+
+.education, .education > h2 {
   background-color: #dacdbe;
 }
 
@@ -73,11 +75,11 @@ body {
   padding: 16px 4px 4px;
 }
 
-.miscellanceous {
+.miscellanceous, .miscellanceous > h2 {
   background-color: #dcd6cb;
 }
 
-.activities {
+.activities, .activities > h2 {
   background-color: #f6f1ee;
   padding: 4px 16px;
 }
