@@ -21,28 +21,29 @@ body {
   margin: 0;
 }
 
-.my-picture {
+.my-profile {
   height: 280px;
-  /* width: 320px; */
-  /* margin: 0; */
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f7f5f4;
 }
 
-
-.my-picture img {
-  border-radius: 160px;
-  height: 160px;
-  /* margin: 28px 80px 16px; */
-  margin-top: 12px;
+.my-profile-container {
+  text-align: center;
 }
 
-.my-picture h1 {
+.my-profile img {
+  border-radius: 160px;
+  height: 160px;
+  padding: 8px;
+}
+
+.my-profile h1 {
   text-align: center;
   font-size: 24px;
-  /* margin: 0; */
-  margin-top: -12px;
+  margin: 0;
+  padding-bottom: 16px;
 }
 
 
