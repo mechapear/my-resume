@@ -21,13 +21,13 @@ body {
   text-align: center;
 }
 
-.my-profile img {
+.my-profile-container > img {
   border-radius: 160px;
   height: 160px;
   padding: 8px;
 }
 
-.my-profile h1 {
+.my-profile-container > h1 {
   text-align: center;
   font-size: 24px;
   margin: 0;
@@ -44,9 +44,10 @@ h2 {
 }
 
 .contact-wrapper, .miscellanceous-wrapper {
+  --gap: 16px;
   display: grid;
-  grid-gap: 8px;
-  grid-template-columns: 35% 65%;
+  grid-gap: 8px var(--gap);
+  grid-template-columns: 30% calc(70% - var(--gap));
   padding: 16px 4px 4px;
 }
 
@@ -58,7 +59,7 @@ h2 {
   background-color: #dacdbe;
 }
 
-.education-wrapper {
+.education-wrapper, .activities-wrapper {
   padding: 16px 4px 4px;
 }
 
