@@ -4,9 +4,15 @@ body {
   font-size: 14px;
 }
 
-.parent {
-  display: grid;
-  grid-template-columns: minmax(320px, 40%) 1fr;
+.main-wrapper {
+  margin: 0 auto;
+  width: 720px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 /* .col-left {
