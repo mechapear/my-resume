@@ -15,15 +15,8 @@ body {
   align-items: flex-start;
 }
 
-/* .col-left {
-  float: left;
-  width: 46%;
-  padding: 0px;
-} */
-
 .my-info {
   font-size: 14px;
-  /* width: 320px; */
   margin: 0;
 }
 
@@ -60,22 +53,17 @@ body {
   border-radius: 8px 8px 0 0;
   margin-top: -32px;
   margin-bottom: 0;
-
 }
 
 .contact {
   background-color: #c3ab9a;
 }
 
-table, td {
-  text-align: left;
-  vertical-align: 0;
-  width: max-content;
-  margin: 0;
-}
-
-td {
-  padding: 0 8px;
+.contact-wrapper, .miscellanceous-wrapper {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 35% 65%;
+  padding: 16px 4px 4px;
 }
 
 .education {
@@ -95,23 +83,13 @@ td {
   padding: 4px 16px 40px 16px;
 }
 
-/* .col-right {
-  float: left;
-  width: 46%;
-  padding: 0px;
-} */
-
 .my-work {
-  /* width: 480px; */
-  /* margin-left: 16px; */
-  /* margin-right: 8px; */
   padding: 24px 8px 8px 24px;
   background-color: #f7f5f48a;
 }
 
 h2 {
   font-size: 16px;
-
 }
 
 .part {
