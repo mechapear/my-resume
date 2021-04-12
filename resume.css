@@ -40,7 +40,7 @@ body {
 h2 {
   font-size: 16px;
   width: max-content;
-  padding: 8px 12px;
+  padding: 8px;
   border-radius: 8px 8px 0 0;
   margin-top: -32px;
   margin-bottom: 0;
@@ -92,12 +92,12 @@ h2 {
 
 @media (min-width: 768px) {
   .main-wrapper {
-    max-width: 900px;
+    max-width: 785px;
+    margin: 0 auto;
   }
 
   .main-container {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 35% auto;
   }
 }
